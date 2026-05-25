@@ -17,6 +17,8 @@ The steps taken to train the LLM will be as followed:
 6) Feed LLM additional relevant definitions and context related to the framework
 7) Provide exemplars
 
+The data the LLM will be working with a requirements list table for an Accounts Payable (AP) system. The data describing what the system should be able to do, not actual data output. There are two sections of the data we will be focusing on: Priority and Requirement. The Requirements describe the system's ability to perform a specific task. The Priorities describe how important that listed Requirement is. There are three kinds of Priorities, which are low, medium, and high. 
+
 SOURCES
 Rosenkranz, Christoph; Charaf, Marianne Corvera; and Holten, Roland (2013) "Language Quality in Requirements Development: Tracing Communication in the Process of Information Systems Development," Journal of Information Technology: Vol. 28: Iss. 3, Article 3.
 DOI: 10.1057/jit.2012.33
