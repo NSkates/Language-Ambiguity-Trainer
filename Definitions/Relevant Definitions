@@ -1,0 +1,10 @@
+
+Few-Shot Prompting: Few-Shot Prompting provides an LLM with a few examples of similar scenarios to the initial task you want it to solve. This helps train your LLM to produce outputs as efficiently as possible. These similar scenarios usually include a hypothetical input and an example output.
+
+Actor: assign meanings (that is, concepts) to representations (that is, symbols) by predicating. It’s the interpreter of the symbol
+
+Symbol: They represent a meaning. Symbols get meaning from an actor
+
+Language Construct (LC) Premise: The linguistic construction of a symbol-concept relationship can be observed during the language development process. The concept appears in its linguistic context and there may be several sides to the same concept. The symbol is used as a representation for given concepts. A symbol that represents one thing in one context may even denote the opposite thing in a slightly different context. 
+
+Language Quality Ontology: a common vocabulary for researchers who need to share information in a domain. The “language quality” part of the term emphasizes how the ontology must be structured. This allows people (or machines) to develop understanding in an organized way.
