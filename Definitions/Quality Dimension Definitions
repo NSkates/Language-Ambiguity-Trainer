@@ -1,0 +1,4 @@
+Completeness: completeness is given when a representing symbol is given for every concept
+Meaningfulness: a meaningful representation is given when every representing symbol is linked with one corresponding concept
+Unambiguity: Unambiguity is given when no two concepts map into the same symbol 
+Non-redundancy: non-redundancy is given when every linguistic unit, single concepts are linked to one concrete symbol
