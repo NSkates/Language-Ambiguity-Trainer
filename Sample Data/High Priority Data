@@ -1,0 +1,120 @@
+1.
+
+Requirement:
+“System shall generate a monthly accounts payable report including total outstanding balance and number of unpaid invoices.”
+
+Ambiguity (Unambiguity):
+
+“monthly”
+
+Why:
+
+It’s unclear whether the report is generated at the end of the month, the beginning, or on-demand for a given month.
+2.
+
+Requirement:
+“System shall allow authorized users to approve invoices exceeding $5,000 before payment is issued.”
+
+Ambiguity (Completeness):
+
+“authorized users”
+
+Why:
+
+The requirement doesn’t define which roles are considered authorized, so access control rules are incomplete.
+3.
+
+Requirement:
+“System shall store vendor records including vendor ID, name, address, and contact number.”
+
+Ambiguity (Completeness):
+
+“address”
+
+Why:
+
+It does not specify the structure of the address (e.g., required fields like city or ZIP code), leaving room for inconsistent data entry.
+4.
+
+Requirement:
+“System shall validate invoice submissions by checking for duplicate invoice numbers and missing required fields.”
+
+Ambiguity (Completeness):
+
+“required fields”
+
+Why:
+
+The requirement does not list which fields are required, so developers may implement different validation rules.
+5.
+
+Requirement:
+“System shall allow users to search invoices by vendor name and invoice date.”
+
+Ambiguity (Unambiguity):
+
+“invoice date”
+
+Why:
+
+It’s unclear whether this refers to the issue date, due date, or entry date.
+6.
+
+Requirement:
+“System shall retain payment transaction records for a minimum of five years.”
+
+Ambiguity (Unambiguity):
+
+“retain”
+
+Why:
+
+It’s not clear whether records must remain actively accessible or can be archived after a certain period.
+7.
+
+Requirement:
+“System shall send email notifications to users when an invoice becomes overdue.”
+
+Ambiguity (Unambiguity):
+
+“becomes overdue”
+
+Why:
+
+The exact trigger point (e.g., immediately after due date vs. after a grace period) is not defined.
+8.
+
+Requirement:
+“System shall allow users to update vendor contact information while maintaining an audit log of changes.”
+
+Ambiguity (Completeness):
+
+“audit log”
+
+Why:
+
+It does not specify what details must be recorded in the log (e.g., timestamp, user ID, old vs. new values).
+9.
+
+Requirement:
+“System shall export financial reports in CSV and PDF formats.”
+
+Ambiguity (Meaningfulness):
+
+“financial reports”
+
+Why:
+
+It’s unclear which specific reports are included, so the scope of export functionality is not fully defined.
+10.
+
+Requirement:
+“System shall restrict access to payment data based on predefined user roles and permissions.”
+
+Ambiguity (Completeness):
+
+“predefined user roles and permissions”
+
+Why:
+
+The requirement does not specify what those roles and permissions are, leaving implementation details incomplete.
