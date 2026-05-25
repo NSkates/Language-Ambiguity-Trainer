@@ -1,0 +1,120 @@
+1.
+
+Requirement:
+“System shall generate monthly accounts payable summary reports.”
+
+Ambiguity (Completeness):
+
+“summary reports”
+
+Why:
+
+It doesn’t define what data should be included in the summary, so developers may include different information than what users expect.
+2.
+
+Requirement:
+“System shall allow users to approve invoices before payment processing.”
+
+Ambiguity (Unambiguity):
+
+“users”
+
+Why:
+
+It’s unclear which users (e.g., managers, accountants) are allowed to approve invoices, which could lead to incorrect access control.
+3.
+
+Requirement:
+“System shall store vendor contact information including name, address, and phone number.”
+
+Ambiguity (Completeness):
+
+“address”
+
+Why:
+
+It’s not clear what fields are required for an address (e.g., street, city, ZIP code), so implementations may vary.
+4.
+
+Requirement:
+“System shall validate invoice entries before submission.”
+
+Ambiguity (Meaningfulness):
+
+“validate”
+
+Why:
+
+“Validate” is unclear without rules—developers don’t know what checks to perform (e.g., required fields, format, duplicates).
+5.
+
+Requirement:
+“System shall allow users to search invoices by date and vendor.”
+
+Ambiguity (Unambiguity):
+
+“date”
+
+Why:
+
+It’s unclear whether this refers to invoice date, due date, or payment date, which could affect search results.
+6.
+
+Requirement:
+“System shall maintain a history of payment transactions.”
+
+Ambiguity (Completeness):
+
+“history”
+
+Why:
+
+It doesn’t specify how long the history should be stored (e.g., 1 year, indefinitely), leaving the requirement incomplete.
+7.
+
+Requirement:
+“System shall notify users when invoices are overdue.”
+
+Ambiguity (Unambiguity):
+
+“overdue”
+
+Why:
+
+It’s unclear how overdue is defined (e.g., 1 day late, 30 days late), which affects when notifications are triggered.
+8.
+
+Requirement:
+“System shall allow editing of vendor records.”
+
+Ambiguity (Meaningfulness):
+
+“editing”
+
+Why:
+
+It’s unclear what parts of the vendor record can be changed and whether there are restrictions.
+9.
+
+Requirement:
+“System shall support exporting reports in standard formats.”
+
+Ambiguity (Completeness):
+
+“standard formats”
+
+Why:
+
+The requirement doesn’t specify which formats (e.g., PDF, CSV, Excel), so developers may choose differently than expected.
+10.
+
+Requirement:
+“System shall restrict access to financial data based on user roles.”
+
+Ambiguity (Completeness):
+
+“user roles”
+
+Why:
+
+It doesn’t define what roles exist or what permissions each role has, making the requirement incomplete.
