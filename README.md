@@ -1,5 +1,5 @@
 # Language-Ambiguity-Trainer
-This is a portion of the final exam project for CIS 379 (Systems Analysis and Design) that is able to be publicly shown. 
+This is a portion of the final exam project for CIS 379 (Systems Analysis and Design) that is able to be publicly shown (some portions of transcripts may be redacted, if necesarry). The transcripts in the LLM will be uploaded as an XML file.
 
 The goal of this project is to train an LLM of choice to detect language ambiguity when given a set of data. The intention is not for the LLM to simply answer questions, but to demonstrate learned application of the framework in identifying ambiguity in new examples. The framework I plan to use to help me identify ambiguities is the dimensions of language quality as described in the journal article, Language Quality in Requirements Development: Tracing Communication in the Process of Information Systems Development by Christoph Rosenkranz, Marianne Corvera Charaf, and Roland Holten. The dimensions in this framework are dependent on being defined by the event’s symbols and actors. In the article, actors are essentially defined as a “representer.“ In other words, it’s someone (or sometimes, something) that gives the symbol a definition. A symbol could be defined as an entity that gets its meaning from the following actor. 
 
