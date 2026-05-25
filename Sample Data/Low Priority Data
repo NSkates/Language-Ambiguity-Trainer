@@ -1,0 +1,120 @@
+1.
+
+Requirement:
+“Provide ability to view vendor information easily.”
+
+Ambiguity (Unambiguity):
+
+“easily”
+
+Why:
+
+“Easily” depends on the user. One person might expect a search bar, another might expect filters or a dashboard. Since it’s not defined, developers won’t know what to build.
+2.
+
+Requirement:
+“System should support quick invoice processing.”
+
+Ambiguity (Unambiguity):
+
+“quick”
+
+Why:
+
+“Quick” has no specific time attached to it. Without a defined timeframe (like seconds or minutes), there’s no way to tell if the system meets the requirement.
+3.
+
+Requirement:
+“Allow users to manage payments efficiently.”
+
+Ambiguity (Meaningfulness):
+
+“manage”
+
+Why:
+
+“Manage” is too broad—it could mean creating payments, editing them, approving them, or deleting them. The system can’t implement a clear function if the action itself isn’t defined.
+4.
+
+Requirement:
+“Provide reports for financial tracking.”
+
+Ambiguity (Completeness):
+
+“reports”
+
+Why:
+
+It doesn’t say what kind of reports are needed (e.g., summary, detailed, monthly). Without that, the requirement is incomplete and open to interpretation.
+5.
+
+Requirement:
+“Enable handling of different types of invoices.”
+
+Ambiguity (Completeness):
+
+“different types of invoices”
+
+Why:
+
+The requirement never specifies what those types are (e.g., recurring, one-time, credit invoices). Developers won’t know what cases the system needs to support.
+6.
+
+Requirement:
+“System should allow updates to account details when needed.”
+
+Ambiguity (Unambiguity):
+
+“when needed”
+
+Why:
+
+There’s no clear rule for when updates are allowed. This could lead to inconsistent behavior or security issues because “need” isn’t defined.
+7.
+
+Requirement:
+“Support integration with other systems if possible.”
+
+Ambiguity (Meaningfulness):
+
+“if possible”
+
+Why:
+
+This makes the requirement unclear because it doesn’t commit to anything. It’s not clear whether integration is required or optional, so it’s hard to prioritize or implement.
+8.
+
+Requirement:
+“Provide notifications for important events.”
+
+Ambiguity (Unambiguity):
+
+“important”
+
+Why:
+
+What counts as “important” can vary (e.g., overdue payments vs. new invoices). Without defining this, the system may notify too much or too little.
+9.
+
+Requirement:
+“Allow users to access data securely.”
+
+Ambiguity (Completeness):
+
+“securely”
+
+Why:
+
+It doesn’t specify how security should be handled (e.g., encryption, authentication). Without details, developers can’t ensure the system meets the expected level of security.
+10.
+
+Requirement:
+“Maintain accurate financial records.”
+
+Ambiguity (Unambiguity):
+
+“accurate”
+
+Why:
+
+“Accurate” isn’t defined—there’s no rule for how correctness is measured or validated, so it’s unclear what standard the system must meet.
